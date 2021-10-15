@@ -324,7 +324,7 @@ header .container nav ul li a {
 .landing .container .image .bg-intro-desktop {
   position: absolute;
   top: -40%;
-  left: 18%;
+  left: 0;
 }
 @media (max-width: 767.5px) {
   .landing .container .image .bg-intro-desktop {
@@ -349,7 +349,7 @@ header .container nav ul li a {
 @media (min-width: 768px) {
   .landing .container .image .image-mobiles {
     top: -20%;
-    left: 40%;
+    left: 30%;
   }
 }
 @media (max-width: 767.5px) {

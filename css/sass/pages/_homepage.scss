@@ -50,7 +50,7 @@
       .bg-intro-desktop {
         position: absolute;
         top: -40%;
-        left: 18%;
+        left: 0;
         @media #{$maxSmall} {
           display: none;
         }
@@ -69,7 +69,7 @@
         position: absolute;
         @media #{$minMedium} {
           top: -20%;
-          left: 40%;
+          left: 30%;
         }
         @media #{$maxSmall} {
           width: 100%;
