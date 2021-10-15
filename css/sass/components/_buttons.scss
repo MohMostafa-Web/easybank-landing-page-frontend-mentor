@@ -1,0 +1,17 @@
+.btn {
+  display: block;
+  width: 155px;
+  height: 42px;
+  line-height: 42px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(to right, $lime-green, $bright-cyan);
+  font-size: 14px;
+  border: none;
+  @include prefixer(border-radius, 25px, webkit moz ms o);
+  @include prefixer(transition, opacity 0.3s, webkit moz ms o);
+  &:hover {
+    opacity: 0.5;
+  }
+}

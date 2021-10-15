@@ -1,0 +1,173 @@
+/* Start Landing Section */
+.landing {
+  background-color: $very-light-gray;
+  overflow-x: clip;
+  position: relative;
+  @media #{$maxSmall} {
+    padding-bottom: 80px;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    @media #{$maxSmall} {
+      flex-direction: column;
+    }
+    .intro-text {
+      width: 40%;
+      @media #{$maxSmall} {
+        width: 100%;
+        order: 2;
+        margin-top: -100px;
+      }
+      h1 {
+        font-size: 52px;
+        @media #{$maxMobile} {
+          font-size: 42px;
+        }
+      }
+      p {
+        width: 90%;
+        @media #{$maxSmall} {
+          width: 100%;
+        }
+      }
+      .btn {
+        @media #{$maxSmall} {
+          margin: auto;
+        }
+      }
+    }
+    .image {
+      position: relative;
+      @media #{$minMedium} {
+        width: 60%;
+        min-height: 665px;
+      }
+      @media #{$maxSmall} {
+        width: 100%;
+        order: 1;
+      }
+      .bg-intro-desktop {
+        position: absolute;
+        top: -40%;
+        left: 18%;
+        @media #{$maxSmall} {
+          display: none;
+        }
+      }
+      .bg-intro-mobile {
+        width: 110%;
+        position: relative;
+        top: -60px;
+        left: -15px;
+        display: none;
+        @media #{$maxSmall} {
+          display: block;
+        }
+      }
+      .image-mobiles {
+        position: absolute;
+        @media #{$minMedium} {
+          top: -20%;
+          left: 40%;
+        }
+        @media #{$maxSmall} {
+          width: 100%;
+          top: -28.4%;
+          left: 0;
+        }
+      }
+    }
+  }
+}
+/* End Landing Section */
+/* Start Why choose Section */
+.why-choose {
+  background-color: $light-grayish-blue;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  .intro {
+    h2 {
+      font-size: 36px;
+    }
+    p {
+      width: 50%;
+    }
+  }
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    .feature {
+      width: 297px;
+      margin-top: 50px;
+      @media #{$maxSmall} {
+        width: 100%;
+      }
+      h3 {
+        margin-top: 35px;
+        font-size: 24px;
+      }
+    }
+  }
+}
+/* End Why choose Section */
+/* Start Latest Articles Section */
+.latest-articles {
+  background-color: $very-light-gray;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  .container {
+    h2 {
+      font-size: 36px;
+      margin-bottom: 50px;
+      @media #{$maxSmall} {
+        text-align: center;
+      }
+    }
+    .articles {
+      display: grid;
+      @media #{$minMedium} {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 280px));
+        justify-content: space-between;
+      }
+      @media #{$maxSmall} {
+        justify-content: center;
+      }
+      .article {
+        background-color: $white;
+        margin-bottom: 40px;
+        @include prefixer(border-radius, 6px, webkit moz ms o);
+        overflow: hidden;
+        @media #{$maxSmall} {
+          width: 350px;
+        }
+        @media #{$maxMobile} {
+          width: 345px;
+        }
+        img {
+          display: block;
+          width: 100%;
+          height: 200px;
+        }
+        .info {
+          padding: 25px;
+          .author {
+            color: $grayish-blue;
+            font-size: 12px;
+          }
+          h5 {
+            margin: 12px 0;
+            font-size: 18px;
+          }
+          p {
+            margin: 0;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+/* End Latest Articles Section */

@@ -1,0 +1,20 @@
+/* Prefixer Mixin */
+@mixin prefixer($property, $value, $prefixes:()) {
+  #{$property} : $value;
+  @each $prefix in $prefixes {
+    #{"-" + $prefix + "-" + $property}: $value;
+  }
+}
+
+/* Animation keyframes with prefixes Mixin */
+@mixin animationKeyFrames($animation-name) {
+  @keyframes #{$animation-name} {
+    @content;
+  }
+  @-webkit-keyframes #{$animation-name} {
+    @content;
+  }
+  @-moz-keyframes #{$animation-name} {
+    @content;
+  }
+}

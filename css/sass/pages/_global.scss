@@ -1,0 +1,21 @@
+* {
+  @include prefixer(box-sizing, border-box, webkit moz ms o);
+  padding: 0;
+  margin: 0;
+}
+body {
+  font: {
+    family: 'Public Sans', sans-serif;
+    size: 18px;
+  }
+  &.scroll-locked {
+    overflow: hidden;
+  }
+}
+ul, ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  @include prefixer(transition, color 0.3s, webkit moz ms o);
+}

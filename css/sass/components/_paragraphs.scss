@@ -1,0 +1,10 @@
+.main-paragraph {
+  color: $grayish-blue;
+  line-height: 1.6;
+  margin-top: 25px;
+  margin-bottom: 35px;
+  @media #{$maxSmall} {
+    width: 100% !important;
+    font-size: 16px;
+  }
+}
