@@ -45,8 +45,6 @@ Users should be able to:
 - CSS Grid
 - Pure JS
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
 - use svg and change the styling of color, see code below:
@@ -96,7 +94,7 @@ In the future, I will use more css preprocessors like sass and more frameworks l
 ### Useful resources
 
 - [stackoverflow](https://stackoverflow.com/questions/24933430/img-src-svg-changing-the-styles-with-css) - This helped me for using svg and edit its styling.
-- [youtube](https://www.youtube.com/playlist?list=PLDoPjvoNmBAz9sluuyOWPifXvySgrGma8) - This is an amazing channel which helped me and this playlist helped me to understand Sass. I'd recommend it to anyone still learning this channel.
+- [youtube playlist (Create Web Design With Sass)](https://www.youtube.com/playlist?list=PLDoPjvoNmBAz9sluuyOWPifXvySgrGma8) - This is an amazing channel which helped me and this playlist helped me to understand Sass. I'd recommend it to anyone still learning this channel.
 
 ## Author
 
