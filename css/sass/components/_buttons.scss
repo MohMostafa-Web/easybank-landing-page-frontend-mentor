@@ -15,3 +15,23 @@
     opacity: 0.5;
   }
 }
+
+.scroll-top-btn {
+  position: fixed;
+  bottom: 300px;
+  right: 15px;
+  display: none;
+  &.visible {
+    display: block;
+    @include prefixer(animation, fadeIn 0.5s linear, webkit moz ms o);
+  }
+  i {
+    color: rgb($black, 0.75);
+    font-size: 35px;
+    @include prefixer(transition, all 0.3s, webkit moz ms o);
+    cursor: pointer;
+    &:hover {
+      color: $black;
+    }
+  }
+}
