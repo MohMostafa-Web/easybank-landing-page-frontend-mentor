@@ -405,10 +405,10 @@ header .container nav ul li a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 20px;
+  gap: 15px;
 }
 .why-choose .features .feature {
-  width: 297px;
+  width: 280px;
   margin-top: 50px;
 }
 @media (max-width: 767.5px) {
@@ -419,6 +419,10 @@ header .container nav ul li a {
 .why-choose .features .feature h3 {
   margin-top: 35px;
   font-size: 24px;
+}
+.why-choose .features .feature p {
+  width: 94%;
+  font-size: 16px;
 }
 
 /* End Why choose Section */
