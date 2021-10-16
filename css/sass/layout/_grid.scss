@@ -20,19 +20,22 @@
 // Large Screen
 @media #{$minLarge} {
   .container {
-    max-width: 960px;
+    // max-width: 960px;
+    max-width: calc(960px - 116px);
   }
 }
 // Extra Large Screen
 @media #{$minExtraLarge} {
   .container {
-    max-width: 1140px;
+    // max-width: 1140px;
+    max-width: calc(1140px - 116px);
   }
 }
 // Double Extra Large Screen
 @media #{$minDoubleExtraLarge} {
   .container {
-    max-width: 1320px;
+    // max-width: 1320px;
+    max-width: calc(1320px - 116px);
   }
 }
 
