@@ -52,7 +52,6 @@ scrollTopBtn.onclick = function () {
 
 // toggle Scroll To Top Button
 window.onscroll = function () {
-  console.log(window.scrollY);
   if (window.scrollY >= 400) {
     scrollTopBtn.classList.add("visible");
   } else {
